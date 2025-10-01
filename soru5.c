@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
 int not;
 float ortalama;
 
@@ -40,3 +38,4 @@ int main() {
 
     return 0;
 }
+
