@@ -6,20 +6,20 @@ int sayi;
 
 int main() {
 
-    printf("Bir sayi girin: ");
+    printf("Bir sayi giriniz: ");
     scanf("%d", &sayi);
 
     if (sayi > 0) {
-        printf("Pozitif\n");
+        printf("Sayiniz Pozitif\n");
     }
 
     else if (sayi < 0) {
-        printf("Negatif\n");
+        printf("Sayiniz Negatif\n");
     }
 
     else {
-        printf("Sifir\n");
+        printf("Sayiniz Sifir\n");
     }
-
     return 0;
 }
+
