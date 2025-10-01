@@ -4,8 +4,7 @@
 int sayi;
 
 int main() {
-
-    printf("Bir sayi girin: ");
+    printf("Bir sayi giriniz: ");
     scanf("%d", &sayi);
 
     for (int i = 1; i <= sayi; i++) {
@@ -20,3 +19,4 @@ int main() {
 
     return 0;
 }
+
