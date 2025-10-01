@@ -3,25 +3,21 @@
 
 #include <stdio.h>
 
-
 int sayi1;
 int sayi2;
 
 int main() {
 
-    printf("Birinci sayiyi girin: ");
+    printf("Birinci sayiyi giriniz: ");
     scanf("%d", &sayi1);
 
-    printf("Ikinci sayiyi girin: ");
+    printf("Ikinci sayiyi giriniz: ");
     scanf("%d", &sayi2);
-
     printf("Toplam: %d\n", sayi1 + sayi2);
-
     printf("Fark: %d\n", sayi1 - sayi2);
-
     printf("Carpim: %d\n", sayi1 * sayi2);
-
     printf("Bolme: %d\n", sayi1 / sayi2);
 
     return 0;
 }
+
